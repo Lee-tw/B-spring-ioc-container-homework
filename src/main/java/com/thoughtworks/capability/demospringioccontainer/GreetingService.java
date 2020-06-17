@@ -6,9 +6,9 @@ import org.springframework.stereotype.Service;
 public class GreetingService {
 
     private final Foo foo;
-    private final Foo bar;
+    private final Bar bar;
 
-    public GreetingService(Foo foo, Foo bar) {
+    public GreetingService(Foo foo, Bar bar) {
         this.foo = foo;
         this.bar = bar;
     }
